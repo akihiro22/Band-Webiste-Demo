@@ -339,6 +339,8 @@ html {
     padding: 11px 16px;
     display: inline-block;
     text-align: center;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .tour-section .buy-btn:hover {
