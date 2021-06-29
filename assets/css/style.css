@@ -387,6 +387,8 @@ html {
     border: 1px solid #000;
     padding: 10px 16px;
     float: right;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .submit-btn:hover {
