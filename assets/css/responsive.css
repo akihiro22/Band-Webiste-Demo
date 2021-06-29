@@ -1,0 +1,97 @@
+/* Tablet & mobile */
+@media (max-width:1023px) {
+    #nav .sub-nav a {
+        padding: 5px 12px;
+    }
+
+    .submit-btn,
+    .tour-section .buy-btn{
+        padding:15px 16px;
+    } 
+    
+    .contact-content .form-control{
+        padding: 15px;
+    }
+
+    .contact-infor {
+        font-size: 20px;
+        line-height: 2;
+    }
+
+    #footer .socials-list {
+        font-size: 48px;
+    }
+
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+
+    #footer .copy-right {
+        font-size: 36px;
+        padding: 12px 0;
+        display: inline-block;
+    }
+
+}
+
+/* Mobile */
+@media(max-width:740px) {
+    #header {
+        overflow: hidden;
+    }
+
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    #nav {
+        display: block;
+    }
+
+    #nav>li {
+        display: block;
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+    }
+
+    #nav li a {
+        display: block;
+    }
+
+    #nav .sub-nav {
+        position: inherit;
+        background-color: #333;
+    }
+
+    #nav .sub-nav a {
+        padding: 15px 42px;
+        color: #fff;
+    }
+
+    #header .mobile-menu-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+    }
+
+    #header .nav-search {
+        display: none;
+    }
+
+    #content .member-items {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+.contact-inform{
+    margin-top: 16px;
+}
+
+}
